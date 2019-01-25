@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import { HashRouter as Router } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker'
 import { routes, routeIfy } from './routes'
-import 'antd/dist/antd.css'
 
 ReactDOM.render((
   <Router>
