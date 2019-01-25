@@ -3,6 +3,7 @@ import { Route, Redirect, Switch } from 'react-router-dom'
 
 import Home from './Home'
 import Login from './Login'
+import Register from './Register'
 import Main from './Main'
 import About from './About'
 import Download from './Download'
@@ -38,6 +39,9 @@ export const routes = [
   }, {
     path: '/login',
     component: Login
+  }, {
+    path: '/register',
+    component: Register
   }
 ]
 

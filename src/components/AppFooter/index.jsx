@@ -7,8 +7,7 @@ class AppFooter extends React.Component {
 
   render () {
     return (
-      <div>
-        这是AppFooter组件
+      <div className="wrap">
       </div>
     )
   }
