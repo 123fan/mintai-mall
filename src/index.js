@@ -4,6 +4,7 @@ import { HashRouter as Router } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker'
 import { routes, routeIfy } from './routes'
 import './index.css'
+
 ReactDOM.render((
   <Router>
     <div>
