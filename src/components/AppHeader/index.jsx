@@ -1,5 +1,6 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
+import AppNav from '../AppNav'
 
 class AppHeader extends React.Component {
 
@@ -9,6 +10,7 @@ class AppHeader extends React.Component {
     return (
       <div>
         这是AppHeader组件
+        <AppNav />
       </div>
     )
   }
