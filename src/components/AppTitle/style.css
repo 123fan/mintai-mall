@@ -1,0 +1,11 @@
+.ldq-title {
+  position: relative;
+  text-align: center;
+  margin: 40px 0 30px;
+}
+.ldq-title span {
+  position: absolute;
+  left: 50%;
+  bottom: -3px;
+  transform: translateX(-50%);
+}

@@ -94,3 +94,17 @@
     margin-right: auto;
     margin-left: auto;
   }
+
+  .ldq-btn {
+    border: 1px solid #7c5934;
+    background-color: #f5f5f5;
+  }
+  .ldq-btn span {
+    color: #7c5934;
+  }
+
+  .ldq-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
