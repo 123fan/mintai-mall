@@ -1,6 +1,9 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
 import AppNav from '../AppNav'
+import header from '../../static/img/header.png'
+import logo from '../../static/img/logo.png'
+import './style.css'
 
 class AppHeader extends React.Component {
 
@@ -8,8 +11,9 @@ class AppHeader extends React.Component {
 
   render () {
     return (
-      <div>
-        这是AppHeader组件
+      <div className="ldq-header">
+        <img src={header} width="100%" alt=""/>
+        <img src={logo} className="ldq-logo" alt=""/>
         <AppNav />
       </div>
     )

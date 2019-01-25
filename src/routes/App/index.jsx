@@ -1,4 +1,5 @@
 import React from 'react'
+import banner from '../../static/img/app-banner.png'
 
 class App extends React.Component {
 
@@ -7,6 +8,7 @@ class App extends React.Component {
   render () {
     return (
       <div>
+        <img src={banner} width="100%" alt=""/>
         这是App组件
       </div>
     )
