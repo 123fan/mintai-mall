@@ -86,6 +86,35 @@
     -webkit-text-size-adjust: none;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
+  .login_form{
+    margin-top:16px;
+  }
+  .login_form .ant-input{
+    height:50px;
+    font-size:18px;
+    text-indent:35px;
+  }
+  .login_form .ant-form-item{
+    margin-bottom:15px;
+  }
+  .login_form1 .ant-form-item:last-child{
+    margin-top:-20px;
+  }
+  .login_form .ant-form-item-children{
+    position:relative;
+  }
+  .login_form .getYzm{
+    position: absolute;
+    width:112px;
+    height:35px;
+    background-color:#B1A8A0;
+    color:white;
+    font-size:18px;
+    line-height:35px;
+    text-align:center;
+    right:15px;
+    top:-8px;
+  }
 
   .wrap {
     width: 1200px;
