@@ -24,7 +24,7 @@ class Main extends React.Component {
             <img src={banner1} width="100%" alt=""/>            
           </div>
         </Carousel>
-        <img src={select} width="100%" alt=""/>
+        <img src={select} style={{ width: '100%', marginTop: '-5px' }} alt=""/>
         <div className="wrap">
           <AppTitle>产品展示</AppTitle>
           <div>

@@ -7,7 +7,7 @@ class About extends React.Component {
 
   render () {
     return (
-      <div>
+      <div className="about-box">
         <img src={banner} width="100%" alt=""/>
         这是About组件
       </div>

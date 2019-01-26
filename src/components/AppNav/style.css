@@ -1,3 +1,7 @@
 .ant-menu-dark, .ant-menu-dark .ant-menu-sub {
   background-color: #6b441a;
 }
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: #6b441a;
+  border-bottom: 3px solid #fff;
+}
