@@ -1,0 +1,59 @@
+.foot-line {
+  width: 100%;
+  height: 12px;
+  background: url('../../static/img/foot-line.png') repeat-x;
+  background-size: auto 100%;
+}
+.foot-info {
+  width: 31%;
+  border:1px solid rgba(234, 234, 234, 1);
+  text-align: center;
+  padding: 20px 0 50px;
+}
+.foot-info h1 {
+  padding: 20px;
+  font-size:7px;
+  font-family:Adobe Heiti Std R;
+  font-weight:normal;
+  color:rgba(26,26,26,1);
+}
+.foot-info span {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size:7px;
+  font-family:Adobe Heiti Std R;
+  font-weight:normal;
+  color:rgba(26,26,26,1);
+}
+.foot-list {
+  height:180px;
+  margin-top: 80px;
+  background-color: #956736;
+  position: relative;
+}
+.foot-list .top-img {
+  position: absolute;
+  left: 50%;
+  top: -60px;
+  transform: translateX(-50%);
+}
+.foot-list ul {
+  width: 200px;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  margin-top: 30px;
+}
+.foot-list ul li {
+  padding: 10px;
+}
+.foot-bottom {
+  padding: 10px;
+  text-align: center;
+  background-color: #6b441a;
+  font-size:7px;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+}
