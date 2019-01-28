@@ -26,6 +26,8 @@ class Login extends React.Component {
   }
   handleSubmit(){
      console.log('sub')
+     sessionStorage.setItem('token',111)
+     this.props.history.push('/home/main')
   }
   goRegister(){
     console.log('res')
