@@ -1,0 +1,11 @@
+.download_box {
+    width:1200px;
+    margin:0 auto;
+}
+.download_box  .data{
+    margin-top:39px;
+}
+.download_box .data_title{
+    font-size:20px;
+    color:#670000;
+}
