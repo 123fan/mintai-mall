@@ -15,10 +15,10 @@ class Home extends React.Component {
     return (
       <div>
         <AppHeader />
-        <Switch>
-          {routeIfy(this.props.routes)}
-          <Redirect to={{ pathname: '/home/main' }} />
-        </Switch>
+              <Switch>
+                  {routeIfy(this.props.routes)}
+                  <Redirect to={{ pathname: '/home/main' }} />
+              </Switch>
         <AppFooter />
       </div>
     )

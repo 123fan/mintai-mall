@@ -1,0 +1,22 @@
+.headText{
+    margin: 12px 0 16px 0;
+}
+.shopCar{
+    min-height: 800px;
+    cursor: pointer;
+}
+.ant-table-thead tr{
+    background-color: #E4E4E4 !important;
+}
+td{
+    max-height: 56px !important;
+}
+.ant-table-small > .ant-table-content > .ant-table-body{
+    margin:0
+}
+.bottomTotal{
+    background-color: #E4E4E4;
+    width:1170px;
+    height:37px !important;
+    padding:0 0 0 10px;
+}

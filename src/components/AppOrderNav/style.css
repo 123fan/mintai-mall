@@ -1,0 +1,19 @@
+.hengs{
+     height:1px;
+     background-color: #6B441A;
+     width:50px;
+     display: inline-block;
+    vertical-align: middle;
+    margin:0 15px;
+
+}
+.isSelect .ant-scroll-number{
+    background-color: #6B441A !important;
+    color:white !important;
+}
+.text{
+    color:#CCCCCC;
+}
+.isSelect .text{
+    color:#6B441A !important;
+}

@@ -1,7 +1,8 @@
 import React from 'react'
 import './style.css'
+import {connect} from "react-redux";
 // import AppFooter from '../../components/AppFooter'
-class About extends React.Component {
+class Blank extends React.Component {
 
   state = {}
 
@@ -26,5 +27,15 @@ class About extends React.Component {
     )
   }
 }
+const mapStateToProps = (state) => {
+    return state.counter;
+};
 
-export default About
+const mapDispatchToProps = (dispatch) => {
+    return {
+        // getBanner:(data) => {
+        //     dispatch(getBanner(data))
+        // },
+    }
+};
+export default connect(mapStateToProps, mapDispatchToProps)(Blank);

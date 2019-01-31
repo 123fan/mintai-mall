@@ -1,0 +1,158 @@
+body{
+    background-color: white !important;
+}
+.detail{
+    height:40px;
+    /*border:1px solid #000000;*/
+    width:100%;
+    box-shadow:0px 4px 6px 0px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+}
+.shu{
+    height:10px;
+    width:1px;
+    background-color: #BEBEBE;
+    display: inline-block;
+}
+.statusUl li{
+    float:left;
+    margin:0 22px;
+}
+.ant-input-group input{
+    height:26px !important;
+    border-radius: 0;
+}
+.ant-input-group-addon button{
+    height:26px !important;
+    border-radius: 0;
+}
+.ant-input-group-addon{
+    margin-left:4px !important;
+}
+.myShopBtn{
+    border:1px solid rgba(205,189,179,1);
+    padding:8px 4px;
+    background-color: white;
+    margin-left:5px;
+}
+.statusUl{
+    border-left:1px solid #BEBEBE;
+}
+.headText{
+    margin: 12px 0 16px 0;
+}
+.littleImg{
+    width:60px;
+    height:60px;
+    border:1px solid rgba(205,189,179,1);
+    margin-right:5px;
+}
+.mes{
+    vertical-align: top !important;
+    margin-left:30px;
+}
+.detail label{
+    font-size:8px;
+    color:#999999;
+    margin-right:14px;
+
+}
+.price{
+    color:#E62129;
+    font-size: 15px;
+    font-weight: bold;
+}
+.addBtn,.delBtn{
+    width:20px;
+    height:20px;
+    display: inline-block;
+    border:1px  solid #E5E5E5;
+    line-height: 16px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.numInput{
+    border: 1px solid #E5E5E5;
+    width:50px;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+}
+.numBox{
+    margin-top:50px;
+}
+.sizeBtn{
+    width:50px;
+    height:20px;
+    border: 1px solid #E5E5E5;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 7px;
+    margin-right:4px;
+    cursor: pointer;
+}
+.sizeBox{
+    margin-top:20px;
+}
+.ant-btn{
+    border:0;
+    border-radius: 0;
+    margin-right:16px;
+}
+.ant-btn:nth-of-type(1){
+    background-color: #F0AD4E;
+
+}
+.ant-btn:nth-of-type(2){
+    background-color: #C9302C;
+
+}
+.buyBox{
+    margin-top:20px;
+}
+.biaoBox .biao{
+    margin-right:47px ;
+}
+.biaoBox{
+    margin-top:20px;
+}
+img{
+    cursor: pointer;
+}
+.sizeClick{
+background-color: #6B441A;
+    color:white
+}
+.introduce{
+    width:80px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top:34px;
+    margin-right:20px;
+}
+.selectCss{
+    background-color: #6B441A;
+    color:white;
+}
+.heng{
+    width:1000px;
+    height:1px;
+    background:rgba(107,68,26,1);
+}
+.introDetail{
+    margin-top: 34px;
+    font-size: 14px;
+}
+.ant-cascader-picker{
+    position: absolute;
+    left:10px;
+    opacity: 0;
+}
+.ant-cascader-picker{
+ width:80px;
+}

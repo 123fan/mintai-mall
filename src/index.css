@@ -17,6 +17,7 @@
     font-size: 100%;
     font-weight: normal;
     vertical-align: baseline;
+    box-sizing: border-box;
   }
 
   /* HTML5 display-role reset for older browsers */
@@ -136,4 +137,24 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+/*一行排列*/
+  .align_between{height:100%}
+  /*text-align:justify;*/
+  .align_between>div,.align_between>h3,.align_between>p,
+  .align_between>ul,.align_between>li,.align_between>span,
+  .align_between>input,.align_between>button {display:inline-block;vertical-align:middle}
+  .align_between:before{ content:"";
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;}
+  .clearfix:after{visibility:hidden;clear:both;display:block;content:".";height:0}
+  .clearfix{*zoom:1}
+  a{text-decoration:none;cursor:pointer}
+  a:hover,a:link{text-decoration:none;cursor:pointer}
+  button{outline:none;border:none}
+  /*i,b,strong{font-style:normal;font-weight:normal}*/
+  input:-webkit-autofill{box-shadow: 0 0 0px 1000px white inset !important;-webkit-box-shadow: 0 0 0px 1000px white inset !important}
+  .boldSize{
+    font-weight: bold;
   }

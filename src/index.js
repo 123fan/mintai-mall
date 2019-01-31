@@ -4,12 +4,16 @@ import { HashRouter as Router } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker'
 import { routes, routeIfy } from './routes'
 import './index.css'
+import store from '../src/redux/store';
+import {Provider} from 'react-redux';
 
 ReactDOM.render((
-  <Router>
-    <div>
+  <Router >
+      <Provider store={store}>
+      <div >
       { routeIfy(routes) }
     </div>
+      </Provider>
   </Router>
 ), document.getElementById('root'))
 

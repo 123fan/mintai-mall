@@ -9,6 +9,8 @@ import About from './About'
 import Download from './Download'
 import Mall from './Mall'
 import App from './App'
+import GoodsDetail from './GoodsDetail'
+import ShoppingCar from './ShoppingCar'
 
 export const routes = [
   {
@@ -34,7 +36,13 @@ export const routes = [
       }, {
         path: '/home/app',
         component: App
-      }
+      }, {
+        path: '/home/GoodsDetail',
+        component: GoodsDetail
+      }, {
+        path: '/home/shoppingCar',
+        component: ShoppingCar
+        },
     ]
   }, {
     path: '/login',

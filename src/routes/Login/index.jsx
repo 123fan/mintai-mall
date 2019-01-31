@@ -6,6 +6,8 @@ import AppHeader from '../../components/AppHeader'
 import AppFooter from '../../components/AppFooter'
 import './style.css'
 import $ from 'jquery'
+import {connect} from 'react-redux';
+// import {login} from "../../redux/actions/login";
 
 
 
@@ -95,5 +97,18 @@ class Login extends React.Component {
     )
   }
 }
+const mapStateToProps = (state) => {
+    return {
+        counter: state.counter
+    }
+};
 
-export default Login
+const mapDispatchToProps = (dispatch) => {
+    return {
+        // getBanner:(data) => {
+        //     dispatch(getBanner(data))
+        // },
+    }
+};
+export default connect(mapStateToProps, mapDispatchToProps)(Login);
+// export default Login

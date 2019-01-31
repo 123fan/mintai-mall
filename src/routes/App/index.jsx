@@ -3,9 +3,7 @@ import { Icon } from 'antd'
 import './style.css'
 
 class App extends React.Component {
-
   state = {}
-
   render () {
     return (
       <div className="app-box">

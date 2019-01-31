@@ -10,7 +10,7 @@ class AppCart extends React.Component {
 
   render () {
     return (
-      <div className="ldq-card">
+      <div className="ldq-card" onClick={()=>{this.props.history.push('/home/GoodsDetail')}}>
         <img src={goodImg} width="100%" alt=""/>
         <h3 style={{ padding: '10px 5px' }}>商品名称规格</h3>
         <p style={{ marginBottom: '10px', padding: '0 5px' }}>
